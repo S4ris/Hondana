@@ -1,7 +1,5 @@
-body {
-  background-color: aqua;
-}
+$bgcolor: red;
 
-h1 {
-  color: brown;
+#page{
+  background-color: $bgcolor;
 }
