@@ -12,20 +12,32 @@
 <body>
     <div id="page">
         <section class="top">
-            <header>
-                <h1>Welocme to Hondana!</h1>
-                <p>Check out, Read, Buy, Enjoy!</p>
-                <button>Zaloguj sie</button>
-            </header>
-            <nav>
+            <nav id="NavBar">
                 <ul>
-                    <li>Strona główna</li>
-                    <li>Książki</li>
-                    <li>Mangi</li>
-                    <li>Outlet</li>
-                    <li>Promocje</li>
+                    <li><a href="#">Strona główna</a></li>
+                    <li><a href="#">Książki</a></li>
+                    <li><a href="#">Mangi</a></li>
+                    <li><a href="#">Outlet</a></li>
+                    <li><a href="#">Promocje</a></li>
                 </ul>
+                <header id="StrGPulpit">
+                    <a href="LoginPage/index.html"><button>Zaloguj się</button></a>
+                    <button>Koszyk</button>
+                </header>
             </nav>
+        </section>
+        <section class="top2">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Wyszukaj...">
+                <button type="submit">Szukaj</button>
+            </div>
+            <div class="cart">
+                <img src="cart-icon.png" alt="Koszyk">
+                <span class="cart-count">0</span> <!-- Początkowo liczba produktów w koszyku wynosi 0 -->
+            </div>
         </section>
 
         <section class="main_body">
